@@ -3,9 +3,13 @@ def nyc_pigeon_organizer(data)
   newhash = {}
   data.each do |key,value|
     value.each do |newkey,newvalue|
-      puts newvalue
+     newvalue.each do |name|
+       if !newhash[name]
+         newhash[name]={}
+     end
     end
   end
+  newhash
 end
 
 
