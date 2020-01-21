@@ -1,20 +1,7 @@
 require 'pp'
 def nyc_pigeon_organizer(data)
-  newhash={}
-  data.each do
-    |key,value|
-    value.each do
-      |newvalue,names|
-      names.each do |name|
-        if !newhash[name]
-          newhash[name]= {}
-        end
-        if !newhash[name][key]
-        end
-      end
-    end
-  end
-  puts newhash
+  newhash = {}
+  
 end
 
 
