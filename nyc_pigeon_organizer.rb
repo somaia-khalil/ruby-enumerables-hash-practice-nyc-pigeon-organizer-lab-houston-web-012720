@@ -1,8 +1,8 @@
-require 'pry'
+require 'pp'
 def nyc_pigeon_organizer(data)
   newhash={}
   data.each do
     |key,value|
+    pp key
   end
-   binding pry
 end
