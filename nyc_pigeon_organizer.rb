@@ -8,10 +8,10 @@ def nyc_pigeon_organizer(data)
       name.each do
         if !newhash[name]
           newhash[name]= name
-          puts newhash
       end
     end
   end
+  puts newhash
 end
 
 
