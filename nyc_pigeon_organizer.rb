@@ -2,10 +2,18 @@ require 'pp'
 def nyc_pigeon_organizer(data)
   newhash={}
   data.each do
-    |key,value|
-    puts value
+    |key,value| value
+  
   end
 end
+
+
+
+
+
+
+
+
 nyc_pigeon_organizer(pigeon_data = {
   :color => {
     :purple => ["Theo", "Peter Jr.", "Lucky"],
