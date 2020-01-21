@@ -6,5 +6,5 @@ def nyc_pigeon_organizer(data)
     puts key
   end
 end
-nyc_pigeon_organizer(data)
+nyc_pigeon_organizer()
 
