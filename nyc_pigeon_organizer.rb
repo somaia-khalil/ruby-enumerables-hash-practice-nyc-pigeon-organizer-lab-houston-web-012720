@@ -2,7 +2,7 @@ require 'pp'
 def nyc_pigeon_organizer(data)
   newhash = {}
   data.each do |key,value|
-    key.each do |newkey,newvalue|
+    value.each do |newkey,newvalue|
       puts newvalue
     end
   end
