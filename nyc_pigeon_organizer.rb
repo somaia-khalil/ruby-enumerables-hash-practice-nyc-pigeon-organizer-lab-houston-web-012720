@@ -3,7 +3,7 @@ def nyc_pigeon_organizer(data)
   newhash = {}
   data.each do |key,value|
     key.each do |newkey,newvalue|
-      puts newkey
+      puts newvalue
     end
   end
 end
