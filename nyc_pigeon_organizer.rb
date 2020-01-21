@@ -1,3 +1,7 @@
+require 'pry'
 def nyc_pigeon_organizer(data)
-  # write your code here!
+  newhash= data.each do
+    |key,value|
+  end
+   binding pry
 end
